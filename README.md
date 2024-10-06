@@ -1,3 +1,16 @@
+# ScriptBlaster
+
+<div align="center">
+  <div>
+    A Browser Extension for Running Useful Javascript
+    </div>
+  <br/>
+  <div>
+<img src="https://github.com/user-attachments/assets/de1629e8-c71b-4773-8633-9a1fd2c4edf0" alt=ScriptBlaster logo" width="45%" />
+    </div>
+</div>
+
+
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
 
 ## Getting Started
