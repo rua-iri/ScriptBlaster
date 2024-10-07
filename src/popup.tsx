@@ -1,35 +1,27 @@
 import { Button } from "@/components/ui/button"
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle
-} from "@/components/ui/card"
-
+import { Card, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 
 import "~style.css"
+
+
+import ScriptList from "./features/ScriptList"
 
 function IndexPopup() {
   return (
     <>
-      <Card className="max-w-[500px]">
-        <CardHeader>
-          <CardTitle>ScriptBlaster</CardTitle>
-          <CardDescription>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            aliquid consectetur doloribus sit labore, cum sint ratione commodi,
-            blanditiis suscipit animi repellendus esse ipsum vero quas delectus
-            perspiciatis. Pariatur, modi quo quia accusamus ex vero at eveniet
-            officiis! Illum voluptatum beatae eligendi possimus molestiae enim
-            dolores corporis aliquid adipisci accusamus.
-          </CardDescription>
+      <Card className="max-w-[500px] min-w-[400px] w-[400px]">
+        <CardHeader className="">
+          <CardTitle className="font-extrabold leading-none tracking-tight">
+            ScriptBlaster
+          </CardTitle>
         </CardHeader>
-        <CardContent></CardContent>
+
+        <ScriptList />
+
         <CardFooter className="flex justify-between">
-          <Button variant="outline">Cancel</Button>
-          <Button>Deploy</Button>
+          <Button variant="submit" className="w-full">
+            Add +
+          </Button>
         </CardFooter>
       </Card>
     </>
