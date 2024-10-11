@@ -4,10 +4,12 @@ import type { PlasmoCSConfig } from "plasmo"
 import { CountButton } from "~features/count-button"
 
 export const config: PlasmoCSConfig = {
-  matches: ["https://www.plasmo.com/*"]
+  matches: ["https://www.plasmo.com/*"],
+  world: "MAIN"
 }
 
 export const getStyle = () => {
+  console.log("logging to console")
   const style = document.createElement("style")
   style.textContent = cssText
   return style

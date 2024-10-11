@@ -1,8 +1,7 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-
 import "~style.css"
 
+import { Button } from "@/components/ui/button"
+import { Card, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 
 import ScriptList from "./features/ScriptList"
 
